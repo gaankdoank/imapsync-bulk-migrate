@@ -7,9 +7,9 @@
 # The USERLIST file is suposed to be in the same location of this script.
 
 
-imapsyncpath=
-origin=117.102.107.35
-destination=mail.finlogistics.co.id
+imapsyncpath=/usr/bin
+origin=oldmailaddress
+destination=newmailaddress
 options="--usecache --noerrorsdump --nofoldersizes --no-modules_version --addheader --subscribeall"
 
 while IFS=";" read u1 p1 u2 p2; do
